@@ -2,12 +2,7 @@
 
 This repository contains the code for developing, pretraining, and finetuning a GPT-like LLM and is the official code repository for the book [Build a Large Language Model (From Scratch)](https://amzn.to/4fqvn0D).
 
-<br>
-<br>
-
-<a href="https://amzn.to/4fqvn0D"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123" width="250px"></a>
-
-<br>
+![Book Cover](https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123)
 
 In [*Build a Large Language Model (From Scratch)*](http://mng.bz/orYv), you'll learn and understand how large language models (LLMs) work from the inside out by coding them from the ground up, step by step. In this book, I'll guide you through creating your own LLM, explaining each stage with clear text, diagrams, and examples.
 
@@ -18,11 +13,7 @@ The method described in this book for training and developing your own small-but
 - [Link to the book page on Amazon.com](https://www.amazon.com/gp/product/1633437167)
 - ISBN 9781633437166
 
-<a href="http://mng.bz/orYv#reviews"><img src="https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png" width="220px"></a>
-
-
-<br>
-<br>
+![Reviews](https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png)
 
 To download a copy of this repository, click on the [Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) button or execute the following command in your terminal:
 
@@ -30,13 +21,7 @@ To download a copy of this repository, click on the [Download ZIP](https://githu
 git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 ```
 
-<br>
-
 (If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) for the latest updates.)
-
-<br>
-<br>
-
 
 # Table of Contents
 
@@ -44,24 +29,12 @@ Please note that this `README.md` file is a Markdown (`.md`) file. If you have d
 
 You can alternatively view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) in your browser, which renders Markdown automatically.
 
-<br>
-<br>
-<!--  -->
-
 > **Tip:**
 > If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](setup/README.md) file located in the [setup](setup) directory.
-
-<br>
-<br>
 
 [![Code tests Linux](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml)
 [![Code tests Windows](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml)
 [![Code tests macOS](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml)
-
-
-
-
-<br>
 
 | Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
@@ -79,21 +52,14 @@ You can alternatively view this and other files on GitHub at [https://github.com
 | Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |
 | Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |
 
-<br>
-&nbsp;
-
 The mental model below summarizes the contents covered in this book.
 
-<img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg" width="650px">
-
-<br>
-&nbsp;
+![Mental Model](https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg)
 
 ## Hardware Requirements
 
 The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)
 
-&nbsp;
 ## Bonus Material
 
 Several folders contain optional materials as a bonus for interested readers:
@@ -136,18 +102,12 @@ Several folders contain optional materials as a bonus for interested readers:
   - [Direct Preference Optimization (DPO) for LLM Alignment](ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)
   - [Building a User Interface to Interact With the Instruction Finetuned GPT Model](ch07/06_user_interface)
 
-<br>
-&nbsp;
-
 ## Questions, Feedback, and Contributing to This Repository
-
 
 I welcome all sorts of feedback, best shared via the [Manning Forum](https://livebook.manning.com/forum?product=raschka&page=1) or [GitHub Discussions](https://github.com/rasbt/LLMs-from-scratch/discussions). Likewise, if you have any questions or just want to bounce ideas off others, please don't hesitate to post these in the forum as well.
 
 Please note that since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book. Keeping it consistent helps ensure a smooth experience for everyone.
 
-
-&nbsp;
 ## Citation
 
 If you find this book or code useful for your research, please consider citing it.
@@ -168,4 +128,3 @@ BibTeX entry:
   url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},
   github       = {https://github.com/rasbt/LLMs-from-scratch}
 }
-```

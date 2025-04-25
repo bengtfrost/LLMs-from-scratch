@@ -1,11 +1,9 @@
 # Chapter 2: Working with Text Data
 
-&nbsp;
 ## Main Chapter Code
 
 - [01_main-chapter-code](01_main-chapter-code) contains the main chapter code and exercise solutions
 
-&nbsp;
 ## Bonus Materials
 
 - [02_bonus_bytepair-encoder](02_bonus_bytepair-encoder) contains optional code to benchmark different byte pair encoder implementations
@@ -16,13 +14,6 @@
 
 - [05_bpe-from-scratch](05_bpe-from-scratch) contains (bonus) code that implements and trains a GPT-2 BPE tokenizer from scratch.
 
-
-
-
-
 In the video below, I provide a code-along session that covers some of the chapter contents as supplementary material.
-
-<br>
-<br>
 
 [![Link to the video](https://img.youtube.com/vi/341Rb8fJxY0/0.jpg)](https://www.youtube.com/watch?v=yAcWnfsZhzo)
