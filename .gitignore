@@ -1,4 +1,3 @@
-
 # Configs and keys
 ch05/07_gpt_to_llama/config.json
 ch07/02_dataset-utilities/config.json
@@ -299,3 +298,7 @@ cython_debug/
 # pixi environments
 .pixi
 *.egg-info
+
+# Extra
+.aider*
+.cache_ggshield
